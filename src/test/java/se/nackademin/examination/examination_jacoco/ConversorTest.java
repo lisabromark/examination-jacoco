@@ -11,6 +11,14 @@ public class ConversorTest {
 		Conversor conversor = new Conversor();
 		conversor.setNameConverterArrayValues();
 		assertEquals(conversor.getNameConverterArray().get(0), "Your first name is smaller than your last name");
+		conversor.setGenderConverterArrayValues();
+		assertEquals(conversor.getGenderConverterArray().get(0), "man!");
+		conversor.setAgeConverterArrayValues();
+		assertEquals(conversor.getAgeConverterArray().get(0),"You are young and talented! Things will come your way soon enough! ");
+		conversor.setCityConverterArrayValues();
+		assertEquals(conversor.getCityConverterArray().get(0), " A, ");
 	}
+	
+	
 
 }
