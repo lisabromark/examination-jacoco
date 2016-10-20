@@ -2,9 +2,7 @@ package se.nackademin.examination.examination_jacoco;
 
 import static org.junit.Assert.assertEquals;
 
-import java.io.ByteArrayOutputStream;
-import java.io.OutputStream;
-import java.io.PrintStream;
+
 import java.util.ArrayList;
 import org.junit.Test;
 

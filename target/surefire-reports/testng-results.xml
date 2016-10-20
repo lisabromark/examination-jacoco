@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="337" started-at="2016-10-20T09:40:17Z" finished-at="2016-10-20T09:40:17Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="337" started-at="2016-10-20T09:40:17Z" finished-at="2016-10-20T09:40:17Z">
+      <class name="se.nackademin.examination.examination_jacoco.ConversorTest">
+        <test-method status="PASS" signature="testConversor()[pri:0, instance:testConversor(se.nackademin.examination.examination_jacoco.ConversorTest)]" name="testConversor" duration-ms="12" started-at="2016-10-20T11:40:17Z" finished-at="2016-10-20T11:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConversor -->
+      </class> <!-- se.nackademin.examination.examination_jacoco.ConversorTest -->
+      <class name="se.nackademin.examination.examination_jacoco.GameTest">
+        <test-method status="PASS" signature="testRun()[pri:0, instance:testRun(se.nackademin.examination.examination_jacoco.GameTest)]" name="testRun" duration-ms="33" started-at="2016-10-20T11:40:17Z" finished-at="2016-10-20T11:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRun -->
+        <test-method status="PASS" signature="testCalculateOutPutBasedOnGender()[pri:0, instance:testCalculateOutPutBasedOnGender(se.nackademin.examination.examination_jacoco.GameTest)]" name="testCalculateOutPutBasedOnGender" duration-ms="1" started-at="2016-10-20T11:40:17Z" finished-at="2016-10-20T11:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateOutPutBasedOnGender -->
+        <test-method status="PASS" signature="testCalculateOutPutBasedOnHomeCity()[pri:0, instance:testCalculateOutPutBasedOnHomeCity(se.nackademin.examination.examination_jacoco.GameTest)]" name="testCalculateOutPutBasedOnHomeCity" duration-ms="1" started-at="2016-10-20T11:40:17Z" finished-at="2016-10-20T11:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateOutPutBasedOnHomeCity -->
+        <test-method status="PASS" signature="testCalculateOutPutBasedOnAge()[pri:0, instance:testCalculateOutPutBasedOnAge(se.nackademin.examination.examination_jacoco.GameTest)]" name="testCalculateOutPutBasedOnAge" duration-ms="5" started-at="2016-10-20T11:40:17Z" finished-at="2016-10-20T11:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateOutPutBasedOnAge -->
+        <test-method status="PASS" signature="testGetAgeFromInputValues()[pri:0, instance:testGetAgeFromInputValues(se.nackademin.examination.examination_jacoco.GameTest)]" name="testGetAgeFromInputValues" duration-ms="1" started-at="2016-10-20T11:40:17Z" finished-at="2016-10-20T11:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAgeFromInputValues -->
+        <test-method status="PASS" signature="testGetGenderFromInputValues()[pri:0, instance:testGetGenderFromInputValues(se.nackademin.examination.examination_jacoco.GameTest)]" name="testGetGenderFromInputValues" duration-ms="0" started-at="2016-10-20T11:40:17Z" finished-at="2016-10-20T11:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetGenderFromInputValues -->
+        <test-method status="PASS" signature="testRunGame()[pri:0, instance:testRunGame(se.nackademin.examination.examination_jacoco.GameTest)]" name="testRunGame" duration-ms="2" started-at="2016-10-20T11:40:17Z" finished-at="2016-10-20T11:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRunGame -->
+        <test-method status="PASS" signature="testCalculateOutPutBasedOnNames()[pri:0, instance:testCalculateOutPutBasedOnNames(se.nackademin.examination.examination_jacoco.GameTest)]" name="testCalculateOutPutBasedOnNames" duration-ms="0" started-at="2016-10-20T11:40:17Z" finished-at="2016-10-20T11:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateOutPutBasedOnNames -->
+      </class> <!-- se.nackademin.examination.examination_jacoco.GameTest -->
+      <class name="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest">
+        <test-method status="PASS" signature="testAgeGettersAndSettersMethods()[pri:0, instance:testAgeGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)]" name="testAgeGettersAndSettersMethods" duration-ms="1" started-at="2016-10-20T11:40:17Z" finished-at="2016-10-20T11:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgeGettersAndSettersMethods -->
+      </class> <!-- se.nackademin.examination.examination_jacoco.ResultsFromInputsTest -->
+      <class name="se.nackademin.examination.examination_jacoco.DataAnalysisTest">
+        <test-method status="PASS" signature="testGetResultStringNamesAndAge()[pri:0, instance:testGetResultStringNamesAndAge(se.nackademin.examination.examination_jacoco.DataAnalysisTest)]" name="testGetResultStringNamesAndAge" duration-ms="6" started-at="2016-10-20T11:40:17Z" finished-at="2016-10-20T11:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResultStringNamesAndAge -->
+        <test-method status="PASS" signature="testGetResulStringHomecityAndAge()[pri:0, instance:testGetResulStringHomecityAndAge(se.nackademin.examination.examination_jacoco.DataAnalysisTest)]" name="testGetResulStringHomecityAndAge" duration-ms="0" started-at="2016-10-20T11:40:17Z" finished-at="2016-10-20T11:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResulStringHomecityAndAge -->
+      </class> <!-- se.nackademin.examination.examination_jacoco.DataAnalysisTest -->
+      <class name="se.nackademin.examination.examination_jacoco.MainTest">
+        <test-method status="PASS" signature="testMainMethod()[pri:0, instance:testMainMethod(se.nackademin.examination.examination_jacoco.MainTest)]" name="testMainMethod" duration-ms="1" started-at="2016-10-20T11:40:17Z" finished-at="2016-10-20T11:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMainMethod -->
+      </class> <!-- se.nackademin.examination.examination_jacoco.MainTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
