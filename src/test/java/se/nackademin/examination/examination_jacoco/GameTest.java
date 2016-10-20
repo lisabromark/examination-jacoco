@@ -1,6 +1,10 @@
 package se.nackademin.examination.examination_jacoco;
 
 import static org.junit.Assert.assertEquals;
+
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStream;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import org.junit.Test;
 
@@ -88,7 +92,7 @@ public class GameTest {
 		testArrayOfInputs.add("F");
 		testArrayOfInputs.add("39");
 		game6.getAgeFromInputValues(testArrayOfInputs);
-		assertEquals(testArrayOfInputs.get(4), 39);
+		assertEquals(Integer.parseInt(testArrayOfInputs.get(4)), 39);
 
 	}
 
@@ -97,12 +101,26 @@ public class GameTest {
 
 		Game testGame = new Game();
 		ResultFromInputs testResultFromInputs = new ResultFromInputs();
-
 		testGame.runGame("testgame", "Lisa", "Bromark", 'F', 39, "Uppsala");
 		testResultFromInputs.setResultForAge(39);
-		assertEquals(39, testResultFromInputs.getResultForAge());
+		assertEquals(testResultFromInputs.getResultForAge(), 39);
 
 	}
-	
 
+	@Test
+	public void testRun() {
+		Game testRun = new Game();
+		ArrayList<String> testValues = new ArrayList<String>();
+
+		testValues.add("game6");
+		testValues.add("Lisa");
+		testValues.add("Bromark");
+		testValues.add("F");
+		testValues.add("39");
+		testValues.add("Uppsala");
+
+		testRun.run(testValues);
+	
+	
+	}
 }
